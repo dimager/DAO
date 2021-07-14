@@ -14,6 +14,9 @@ public class Main {
         for (Actor c:actors) {
             System.out.println(c.toString());
         }
+
+        SomeService someService = new SomeService();
+        someService.doService();
     }
 
 

@@ -42,6 +42,10 @@ public class Actor  extends Entity {
 
     @Override
     public String toString() {
-        return id + " " + firstName + " " + lastName;
+        return "Actor{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }
